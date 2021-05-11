@@ -1,6 +1,6 @@
-import SelfExpenses from './components/SelfExpenses';
+import SelfExpenses from './components/Expenses/SelfExpenses';
 
-function App() {
+const App = () => {
   const expenses = [
     {
       id: 'e1',
