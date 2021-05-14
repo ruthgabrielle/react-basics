@@ -1,4 +1,5 @@
 import SelfExpenses from './components/Expenses/SelfExpenses';
+import NewExpense from './components/NewExpense/NewExpense'
 
 const App = () => {
   const expenses = [
@@ -30,7 +31,7 @@ const App = () => {
   return (
     <div>
     <div>
-      <h2>Let's get started!</h2>
+      <NewExpense />
       <SelfExpenses items={expenses}/>
     </div>
     </div>
