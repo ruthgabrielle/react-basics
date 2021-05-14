@@ -2,6 +2,7 @@ import Card from '../UI/Card';
 import ExpenseItem from './ExpenseItem';
 import './Expenses.css';
 
+
 function SelfExpenses(props) {
   const item = props.items; 
 
